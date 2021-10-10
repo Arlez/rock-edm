@@ -381,3 +381,18 @@ h2 {
 h3 {
   font-size: 3;
 }
+
+.header {
+  background-color: #4cb8b3;
+}
+.header h1 {
+  color: #fff;
+}
+
+.navegacion-principal a {
+  color: #fff;
+  font-size: 2.4rem;
+}
+.navegacion-principal a:hover {
+  color: #fef46d;
+}
