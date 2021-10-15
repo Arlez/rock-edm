@@ -1,4 +1,13 @@
-@mixin heading{
-    text-transform: uppercase;
-    font-size: 2.4rem;
+@use 'variables' as v;
+
+@mixin media($size) {
+    @media (min-width: $size){
+        @content;
+    }
+}
+
+@mixin grid($columnas,$gap){
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    gap: $gap;
 }
