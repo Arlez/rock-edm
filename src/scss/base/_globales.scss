@@ -9,6 +9,12 @@ html{
 body{
     font-size: 1.6rem;
     font-family: v.$fuente_principal;
+    &.fijar-body{
+        overflow: hidden;
+    }
+    &.body-scroll{
+        padding-top: 8.6rem;
+    }
 }
 p{
     font-size: 2rem;
@@ -30,10 +36,10 @@ h1{
     font-size: 4rem;
 }
 h2{
-    font-size: 3.6;
+    font-size: 3.6rem;
 }
 h3{
-    font-size: 3;
+    font-size: 3rem;
 }
 img{
     max-width: 100%;
